@@ -4,7 +4,9 @@ document.getElementById("CreationDate").innerHTML = CreationDate;
 
 
 function CountUpTimer(){
-    
-
 };
 
+var Redirect = document.getElementById("Redirect");
+Redirect.onclick = function redirect(){
+    window.location.href = "/main.html"
+};
