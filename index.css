@@ -1,0 +1,29 @@
+/* ? This is style sheet specificly made for the WIP warning, when no longer in use, delete.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#WIP-WARM{
+    
+    display: flex;
+    padding: 80px;
+    margin: 0px;
+
+}
+#WIP-WARN-BOX{
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+#WIP-WARN-BOX button{
+    margin-top: 20px;
+    padding: 14px 80px 14px 65px;
+}
