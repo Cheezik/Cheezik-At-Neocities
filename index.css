@@ -6,9 +6,13 @@
 }
 body{
     background-color: #2a2a2a;
-
+    color:rgb(167, 167, 167);
 
 }
+body h1{
+    color: red;
+}
+
 #WIP-WARM{
     
     display: flex;
@@ -31,4 +35,7 @@ body{
 #WIP-WARN-BOX button{
     margin-top: 20px;
     padding: 14px 80px 14px 65px;
+    background-color: #0e0e0e;
+    border-color:#0e0e0e;
+    color: red;
 }
