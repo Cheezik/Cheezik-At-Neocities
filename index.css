@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url();
+    background-image: url(media/WIP-B-Y-S.gif);
     background-color: #2a2a2a;
     color:rgb(167, 167, 167);
 
@@ -23,6 +23,7 @@ body h1{
 
 }
 #WIP-WARN-BOX{
+    background-color: black;
     margin-top: 80px;
     border: 2px solid black;
     border-radius: 9px;
@@ -32,6 +33,9 @@ body h1{
     
     justify-content: center;
     align-items: center;
+}
+#WIP-WARN-BOX p {
+    margin-top: 15px;
 }
 #WIP-WARN-BOX button{
     margin-top: 20px;
