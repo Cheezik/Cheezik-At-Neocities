@@ -8,5 +8,17 @@
     font-family: "Space Grotesk", sans-serif;
 }
 .SCP{
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Source Code Pro", monospace;
+}
+.POP{
+    font-family: "Poppins", sans-serif;
+}
+.VT{
+    font-family: "VT323", monospace;
+}
+.HJ{
+    font-family: "Handjet", system-ui;
+}
+.BAR{
+    font-family: "Libre Barcode 128", system-ui;
 }
