@@ -27,7 +27,7 @@ body::after {
    z-index: -1;
    animation-name: load-back;
    animation-duration: 25s;
-   animation-delay: 5s;
+   animation-delay: 1.5s;
    
 }   
 @keyframes load-back {

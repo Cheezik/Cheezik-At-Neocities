@@ -21,5 +21,5 @@ setTimeout(countUpTime, 0);
 
 var Redirect = document.getElementById("Redirect");
 Redirect.onclick = function redirect(){
-    window.location.href = "/main.html"
+    window.location.href = "/sites/css/main.html"
 };

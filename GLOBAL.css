@@ -1,1 +1,12 @@
 /*! This is global css rules! make sure to include this global template everywhere! */
+
+
+
+
+/*   *Fonts Classes! */
+.SC{
+    font-family: "Space Grotesk", sans-serif;
+}
+.SCP{
+    font-family: "Space Grotesk", sans-serif;
+}
