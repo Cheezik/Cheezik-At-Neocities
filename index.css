@@ -27,13 +27,16 @@ body::after {
    z-index: -1;
    animation-name: load-back;
    animation-duration: 25s;
+   animation-delay: 5s;
+   
 }   
 @keyframes load-back {
-    /*from  {filter:blur(15px)}*/
-    from {filter:brightness(0%)}
-    /*to {filter: blur(0px);}*/
-    to {filter:brightness(100%)}
-}
+    from{filter:brightness(0%);
+        filter:blur(15px);}
+    }
+    to {filter:brightness(100%);
+        filter: blur(0px);
+    }
 body h1{
     color: red;
 }
@@ -61,12 +64,21 @@ body h1{
 #WIP-WARN-BOX p {
     margin-top: 15px;
 }
+#WIP-WARN-BOX h1 {
+    margin-bottom: 15px; 
+}
 #WIP-WARN-BOX button{
     margin-top: 20px;
     padding: 14px 80px 14px 65px;
     background-color: #0e0e0e;
     border-color:red;
-    color: red;   
-}#WIP-WARN-BOX h1 {
-    margin-bottom: 15px;
+    color: red;
+}
+#WIP-WARN-BOX button:hover{
+    animation-name: glow;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    35% {box-shadow: 0px 0px 25px red;}
 }
