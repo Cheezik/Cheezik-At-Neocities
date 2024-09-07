@@ -5,25 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WIP - Cheezik At Neocities.org</title>
     <link href="/index.css" rel="stylesheet" type="text/css" media="all">
+
+    <!--? Presets-->
+    <link href="/GLOBAL.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Libre+Barcode+128&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=VT323&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <section id="WIP-WARN">
       <div id="WIP-WARN-BOX">
-        <h1>The site is under heavy construction!</h1>
-        <h4>I am (somewhat) actively working on this site, Creation date: 17.7.2024</h4>
-        <h4>Proceed with caution!</h4>
-        <details>
-          <summary> Learn more</summary>
-          This is a passion project created my.. well.. Me :D <br>
-          I work on this when i have spare time and feel like coding.. <br>
+        <h1 class="POP">The site is under heavy construction!</h1>
+        <h4 class="SCP">I am still working on this site!</h4>
+        <h4 class="SCP">Proceed with caution!</h4><br>
+        <p id="Stats" class="HJ">Statistics:</p></br>
 
-          <p>This website was created <span id="CreationDate"> </span> <br> <span id="UpTime">  </span></p>
-        </details>
+        <p class="VT"><span id="CreationDate"></span></p>
+        <p class="VT"><span id="UpTime"></span></p>
+        <p class="VT"><span id="LastGithubCommit"></span></p>
+        <p class="VT"><span id="LastWebsiteUpdate"></span></p>
+      <!--<details class="SC">
+          <summary>More Information</summary>
+          This is a strictly passion project!<br>
+          I work on this when i have spare time and feel like coding..
+        </details> -->
         
         <button id="Redirect"><span id="b">I understand!</span></button>
       </div>
 
     </section>
-    <script src="/sites/js/WIPSCRIPT.js"></script>
+    <script src="/sites/js/WIP_MAIN_SCRIPT.js"></script>
+    <script src="/sites/js/WIP_GITHUB.js"></script>
+    <script src="/sites/js/WIP_NEOCITIES.js"></script>
   </body>
 </html>

@@ -40,14 +40,11 @@ body::after {
 body h1{
     color: red;
 }
-
 #WIP-WARM{
-    
     display: flex;
     padding: 80px;
     margin: 0px;
-    
-
+    gap: 0px;
 }
 #WIP-WARN-BOX{
     background-color: rgb(7, 7, 7);
@@ -57,12 +54,16 @@ body h1{
     padding: 55px;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     align-items: center;
 }
-#WIP-WARN-BOX p {
+#WIP-WARN-BOX {
+    margin-top: 55px;
+}
+#Stats{
     margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
 }
 #WIP-WARN-BOX h1 {
     margin-bottom: 15px; 
@@ -73,12 +74,10 @@ body h1{
     background-color: #0e0e0e;
     border-color:red;
     color: red;
+    transition: box-shadow 3s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.5s linear;
 }
 #WIP-WARN-BOX button:hover{
-    animation-name: glow;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-}
-@keyframes glow{
-    35% {box-shadow: 0px 0px 25px red;}
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    transform: scale(1.00001);
 }
