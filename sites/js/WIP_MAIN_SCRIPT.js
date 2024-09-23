@@ -21,7 +21,10 @@ setTimeout(countUpTime, 0);
 
 var Redirect = document.getElementById("Redirect");
 function pageAlert(){
-    alert("This site isn't really ready to be showcased, once its ready i will update this button to redirect to the site! thanks for understanding.")
+    alert("This site isn't really ready to be showcased, And its in early stage, Dismiss this popup to be redirected.");
+    
+    //redirect after alert dismissed
+    windows.location.href = "https://cheezik-at.neocities.org/html/main"
 }
 Redirect.onclick = pageAlert
 //Redirect.onclick = alert("This site isn't really ready to be showcased, once its ready i will update this button to redirect to the site! thanks for understanding!");
