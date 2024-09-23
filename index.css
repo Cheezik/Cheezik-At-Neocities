@@ -31,12 +31,12 @@ body::after {
    
 }   
 @keyframes load-back {
-    from{filter:brightness(0%);
-        filter:blur(15px);}
-    }
-    to {filter:brightness(100%);
-        filter: blur(0px);
-    }
+    from{opacity: 0;
+        filter: blur(15px);}
+    
+    to {opacity: 1;
+        filter: blur(0px);}
+}
 body h1{
     color: red;
 }
@@ -50,7 +50,7 @@ body h1{
     background-color: rgb(7, 7, 7);
     margin-top: 80px;
     border: 2px solid black;
-    border-radius: 9px;
+    border-radius: 0px;
     padding: 55px;
     display: flex;
     flex-direction: column;
@@ -78,6 +78,6 @@ body h1{
 }
 #WIP-WARN-BOX button:hover{
     cursor: pointer;
-    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px /*rgb(255, 0, 0)*/ darkred;
     transform: scale(1.00001);
 }
