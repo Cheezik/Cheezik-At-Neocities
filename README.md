@@ -1,5 +1,7 @@
 ### Hello!
 
-This is the github repo featuring the whole development process of my [Website](https://cheezik-at.neocities.org)!
+This is the "beta" branch of the website, that is hosted on my local machine.
+meaning changes are being done here before i sync it with downstream
 
-Feel free to check it out :p
+Visit [Beta version](https://cheezik.eu)
+Visit [Stable version](https://cheezik-at.neocities.org)
