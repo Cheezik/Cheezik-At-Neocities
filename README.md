@@ -1,5 +1,9 @@
-### Hello!
+### INFO!
 
-This is the github repo featuring the whole development process of my [Website](https://cheezik-at.neocities.org)!
+This project is long due a major rework.
 
-Feel free to check it out :p
+This is temporary branch to house such changes, due to time constrains eta is currently unavalible
+
+i still dont know what i intend to do with this..
+
+<small> why em i even making it looking official? nobody will even read this.</small>
